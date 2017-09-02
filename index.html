@@ -4,27 +4,88 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sign Up</title>
+    <title>GMCH Dashboard</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
   </head>
 
   <body>
-    <div class="container-fluid main">
-      <div class="row">
-        <div class="tutorial col-md-6">
-          <a href="#">GMCH</a>
-          <p>tutorial</p>
+    <div class="top-header">
+      <ul>
+        <li><h1 class="logo"><span style="font-weight: 900; ">GM</span>Dash</h2></li>
+        <li><h2 class="">Help/Support</h2></li>
+        <li><h2>Settings</h2></li>
+        <li><h2>User</h2></li>
+      </ul>
+    </div>
+    <div id="wrapper" class="toggled">
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <!-- <li class="sidebar-brand">
+                    <a href="#">
+                       Bootstrap 3
+                    </a>
+                </li> -->
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-folder"></i> Page one</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-file-o"></i> Second page</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-cog"></i> Third page</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-plus"></i> Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">Dropdown heading</li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-bank"></i> Page four</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-dropbox"></i> Page 5</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-twitter"></i> Last page</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+          <!-- <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+          </button> -->
+            <div class="container-fluid">
+                <div class="row">
+                  <h1>hello</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
         </div>
+        <!-- /#page-content-wrapper -->
 
-        <div class="sign-up col-md-6">
-          <p>sign up</p>
-        </div>
-      </div>
+    </div>
+    <!-- /#wrapper -->
 
-
-    </div><!-- /.container -->
+    <script src="assets/js/jquery-3.2.1.slim.min.js" charset="utf-8"></script>
     <script src="assets/js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="assets/js/functions.js" charset="utf-8"></script>
   </body>
 </html>
