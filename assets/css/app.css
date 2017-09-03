@@ -16,10 +16,17 @@ h1,h2,h3,h4,h5,h6,a{
   background-color: #373737;
   height: 70px;
   border: none;
+  padding: 10px;
 }
 
-.main{
-  border-top: 7px solid #DE6262;
+.navbar-brand{
+  font-size: 30px;
+}
+
+.nav li a{
+  color: #D3D3D3 !important;
+  font-size: 15px !important;
+  text-transform: uppercase !important;
 }
 
 .sidebar{
@@ -120,4 +127,18 @@ h1,h2,h3,h4,h5,h6,a{
 
 .title{
   border-bottom: 1px solid #CECCC0;
+  border-top: 7px solid #DE6262;
+  height: 80px;
+  padding: 10px;
+  /*text-align: center;*/
+}
+
+.title h2{
+  font-size: 25px;
+  color: #5A5A58;
+  margin-left: 30px;
+}
+
+.title .icon{
+  margin-right: 20px;
 }
