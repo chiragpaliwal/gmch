@@ -12,25 +12,42 @@
   </head>
 
   <body>
-      <ul class="top-header">
-        <li><a href=""><span style="font-weight: 900;">GM</span>Dash</h2></a>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user-circle"></i> User <span class="fa fa-caret-down"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li><a href="#">Separated link</a></li>
-            <li><a href="#">One more separated link</a></li>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">GMDash</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-        <li><a href="">Settings</a></li>
-        <li><a href="">Help/Support</a></li>
-      </ul>
-    <div id="wrapper" class="toggled">
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 sidebar">
+          <ul class="sidebar-nav">
                 <li class="home active">
                     <a href="#">
                       <div class="nav-icons">
@@ -99,34 +116,14 @@
                   </a>
                 </li>
             </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-          <!-- <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
-            <span class="hamb-top"></span>
-            <span class="hamb-middle"></span>
-            <span class="hamb-bottom"></span>
-          </button> -->
-            <div class="container-fluid">
-                <div class="row">
-                  <div class="title col-md-12">
-                    <h2><i class="fa fa-line-chart"></i> Geetanjali Medical</h2>
-                  </div>
-                  <div class="col-md-6">
-                    <h1>first</h1>
-                  </div>
-                  <div class="col-md-6">
-                    <h1>second</h1>
-                  </div>
-                </div>
-            </div>
         </div>
-        <!-- /#page-content-wrapper -->
-
+        <div class="col-md-10 main">
+          <div class="title">
+            <h2><i class="fa fa-line-chart"></i> Geetanjali Medical</h2>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- /#wrapper -->
 
     <script src="assets/js/jquery-3.2.1.slim.min.js" charset="utf-8"></script>
     <script src="assets/js/bootstrap.min.js" charset="utf-8"></script>
