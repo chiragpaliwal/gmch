@@ -25,4 +25,14 @@ $(document).ready(function () {
   $('[data-toggle="offcanvas"]').click(function () {
         $('#wrapper').toggleClass('toggled');
   });
+
+  $('.sidebar-nav li a').click(function(e) {
+
+      $('.sidebar-nav li.active').removeClass('active');
+
+      var $parent = $(this).parent();
+      $parent.addClass('active');
+      e.preventDefault();
+  });
+
 });
