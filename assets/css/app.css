@@ -47,9 +47,8 @@ h1,h2,h3,h4,h5,h6,a{
   margin-top: 60px;
 }
 #wrapper.toggled #page-content-wrapper {
-  margin-right: -220px;
   position: absolute;
-  margin-left: 50px;
+  /*padding-left: 50px;*/
 }
 #sidebar-wrapper {
   -moz-transition: all 0.5s ease;
@@ -60,7 +59,7 @@ h1,h2,h3,h4,h5,h6,a{
   left: 220px;
   margin-left: -220px;
   margin-top: 60px;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   overflow-y: auto;
   transition: all 0.5s ease;
   width: 0;
@@ -74,9 +73,9 @@ h1,h2,h3,h4,h5,h6,a{
   display: none;
 }
 #page-content-wrapper {
-  padding-top: 70px;
-  width: 100%;
-  margin-left: 20px;
+  border-top: 7px solid #DE6262;
+  top: 60px;
+  height: 2000px;
 }
 /*-------------------------------*/
 /*     Sidebar nav styles        */
@@ -333,8 +332,9 @@ h1,h2,h3,h4,h5,h6,a{
 /*-------------------------------*/
 .top-header{
   height: 60px;
+  width: 100%;
   background-color: #373737;
-  position: relative;
+  position: fixed;
   z-index: 1500;
 }
 
@@ -376,4 +376,17 @@ h1,h2,h3,h4,h5,h6,a{
 }
 .top-header li:nth-child(2){
   background-color: #272727;
+}
+
+/*-------------------------------*/
+/*     page-content-wrapper styles        */
+/*-------------------------------*/
+#page-content-wrapper .container-fluid{
+  padding-left: 45px;
+  width: 100%;
+}
+
+.title{
+  width: 100vw;
+  border-bottom: 1px solid #CECCC0;
 }
